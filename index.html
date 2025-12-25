@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience next-level banking with CorePay Bank">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sono:wght,MONO@200..800,1&display=swap" rel="stylesheet">    <title>CorePay Bank</title>
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <div class="nav top">
+        <div class="sec">
+        <a href="#">Personal</a>
+        <a href="#">Business</a>
+        <a href="#">Commercial</a>
+            </div>
+            <div class="sec two">
+                <a href="">Schedule a meeting</a>
+                <a href="">Customer service</a>
+                <select name="" id="">
+                    <option value="En">En</option>
+                    <option value="Es">De</option>
+                    <option value="De">Fr</option>
+                </select>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+        </div>
+        <div class="nav middle">
+        
+          <div class="menu-bar-div" onclick="show()">
+            <button class="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+          </div>  
+            <div class="logo">
+            <img src="images/logo.png" alt="">
+            </div>
+            <div class="signIN">
+                <button onclick="window.open('redirect.html', '_blank')">Sign In</button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menuBar">
+            <div class="sub-logo">
+                <img src="images/logo.png" alt="">
+                <button class="mm-bar" onclick="hide()">
+                    <span class="small-bars b1"></span>
+                    <span class="small-bars b2"></span>
+                    <span class="small-bars b3"></span>
+                </button>
+            </div>
+            <div class="serchbar">
+            <i class="fa fa-search"></i><input type="search" placeholder="Seek">
+            </div>
+            <div class="items">
+                <a href="">Checking account</a>
+                <div class="diviver"></div>
+                <a href="">Savings accounts and CDs</a>
+                <div class="diviver"></div>
+                <a href="">Credit cards</a>
+                <div class="diviver"></div>
+                <a href="">Housing loans</a>
+                <div class="diviver"></div>
+                <a href="">Vehicles</a>
+                <div class="diviver"></div>
+                <a href="">Investments by Mr Vendetta</a>
+                <div class="diviver"></div>
+                <a href="">Education and goals</a>
+                <div class="diviver"></div>
+                <a href="">Trips</a>
+                <div class="diviver"></div>
+                <h3>Connect with us</h3>
+                <div class="diviver"></div>
+                <a href="">Schedule a meeting</a>
+                <div class="diviver"></div>
+                <a href="">Customer service</a>
+                <div class="diviver"></div>
+                <h3>Other product</h3>
+                <a href="">Business</a>
+                <div class="diviver"></div>
+                <a href="">Commercial</a>
+                <div class="diviver"></div>
+            </div>
+            <div class="lng">
+            <a class="lang" href="">English</a>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="nav bottom">
+            <a href="">Checking</a>
+            <a href="">Savings & CD</a>
+            <a href="">Credit Cards</a>
+            <a href="">Home Loans</a>
+            <a href="">Auto</a>
+            <a href="">Investment</a>
+            <a href="">Education and goals</a>
+            <a href="">Travel</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="two-divs">
+                <div class="hero-sections">
+            <h4>Enjoy</h4>
+            <h1>$500</h1>
+            </div>
+            <div class="hero-sections">
+                <h2>New CorePay checking customers</h2>
+                <p>Open a CorePay Total Checking&reg; account with qualifying activities.</p>
+                <button onclick="window.open('redirect.html', '_blank')">Open an account</button>
+            </div>
+            </div>
+            
+            <div class="form">
+                <form action="#">
+                    <h2>Welcome</h2>
+                    <label for="userID">Username</label>
+                    <input type="text" name="userID" id="">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="">
+                    <input type="checkbox" name="check">
+                    <span class="span-space">Remember me</span> 
+                    <a class="Token" href="">Use Token <i class="fa-solid fa-greater-than"></i></a>
+                    <button class="signIn">Sign in </button>
+                    <div class="twoo">
+                    <a href="">Forgot username/password   <i class="fa-solid fa-greater-than"></i></a>
+                    <a href="">Not Enrolled? Sign Up Now. <i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <section id="products">
+            <h1>Choose what's right for you</h1>
+            <div class="products">
+
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/business.png" alt="">
+                </div>
+            <a href="">Business</a>
+            </div>
+
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/credit card.png" alt="">
+                </div>
+                <a href="">Credit cards</a>
+            </div>
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/check.png" alt="">
+                </div>
+                <a href="">Checking</a>
+            </div>            <div class="small-cards">
+                <div class="image">
+                    <img src="images/airplane.png" alt="">
+                </div>
+                <a href="">Travel</a>
+            </div>
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/save.png" alt="">
+                </div>
+                <a href="">Savings</a>
+            </div>
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/laon.png" alt="">
+                </div>
+                <a href="">Home Loans</a>
+            </div>            <div class="small-cards">
+                <div class="image">
+                    <img src="images/auto.png" alt="">
+                </div>
+                <a href="">Auto</a>
+            </div>
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/invest.png" alt="">
+                </div>
+                <a href="">Investment</a>
+            </div>
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/commercial.png" alt="">
+                </div>
+                <a href="">Commercial</a>
+            </div>           
+             <div class="small-cards">
+                <div class="image">
+                    <img src="images/meeting.png" alt="">
+                </div>
+                <a href="">Schedule a meeting</a>
+            </div>
+            <div class="small-cards">
+                <div class="image">
+                    <img src="images/credit.svg" alt="">
+                </div>
+                <a href="">Free Credit Score</a>
+            </div>
+
+        </section>
+        <section>
+            <div class="large-cards">
+            <div class="big-cards">
+                <div class="even_box">
+                    <div class="same-size one">
+                        <h2>Freedom</h2>
+                        <h2>Reserved&reg;</h2>
+                    </div>
+                    <div class="same-size two">
+                        <img src="images/credit card.png" alt="">
+                    </div>
+                </div>
+                <div class="one-box">
+                    <h2>Exclusive Offer</h2>
+                    <h3>Up to 175,000 points</h3>
+                    <p>Click here to see if you have a preapproved offer available-with no impact to your credit score</p>
+
+                </div>
+                <button onclick="window.open('redirect.html', '_blank')">Get started</button>
+            </div>
+            <div class="big-cards">
+                <div class="even_box">
+                    <div class="same-size one">
+                        <h2>Freedom</h2>
+                        <h2>Reserved&reg;</h2>
+                    </div>
+                    <div class="same-size two">
+                        <img src="images/credit card.png" alt="">
+                    </div>
+                </div>
+                <div class="one-box">
+                    <h2>Exclusive Offer</h2>
+                    <h3>Up to 175,000 points</h3>
+                    <p>Click here to see if you have a preapproved offer available-with no impact to your credit score</p>
+
+                </div>
+                <button onclick="window.open('redirect.html', '_blank')">Get started</button>
+            </div>
+            <div class="big-cards">
+                <div class="even_box">
+                    <div class="same-size one">
+                        <h2>Freedom</h2>
+                        <h2>Reserved&reg;</h2>
+                    </div>
+                    <div class="same-size two">
+                        <img src="images/credit card.png" alt="">
+                    </div>
+                </div>
+                <div class="one-box">
+                    <h2>Exclusive Offer</h2>
+                    <h3>Up to 175,000 points</h3>
+                    <p>Click here to see if you have a preapproved offer available-with no impact to your credit score</p>
+
+                </div>
+                <button onclick="window.open('redirect.html', '_blank')">Get started</button>
+            </div>            
+            </div>
+
+        </section>
+
+
+
+
+        <section id="auto">
+           <div class="bus">
+            <div class="image-div">
+                <img src="images/car.avif" alt="">
+            </div>            
+            <div class="tex-div">
+                <h2>Keep your business moving forward with CorePay</h2>
+                <p>Learn how much you can borrown with no impact on your credit score</p>
+                <button onclick="window.open('redirect.html', '_blank')">Get prequalified</button>
+            </div>
+
+           </div> 
+        </section>
+        <section id="consult">
+            <div class="thirdHero">
+
+
+           <div class="bus">            
+            <div class="tex-div">
+                <h2>Don’t go it alone</h2>
+                <p>Partner with a dedicated MR. Vendetta Private Client Advisor. You’ll get personalized investment advice and a custom-built portfolio, starting with a free one-on-one consultation.</p>
+                <button onclick="window.open('redirect.html', '_blank')" >Continue</button>
+            </div>
+            <div class="image-div">
+                <img src="images/invest.png" alt="">
+            </div>
+        </section>
+ <section id="auto">
+           <div class="bus last">         
+            <div class="tex-div">
+                <h2>Enjoy $100 New CorePay checking customers</h2>
+                <p>Enjoy $100 when you open a CorePay Secure Banking℠ account with qualifying transactions.</p>
+                <button onclick="window.open('redirect.html', '_blank')">Open an account</button>
+            </div>
+            <div class="image-div hundred">
+                <img class="round" src="images/100.png" alt="">
+            </div>   
+           </div> 
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Vendetta Devs</p>
+        <p>All rights Reserved</p>
+        <a href="https://www.instagram.com/amgboye"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/amgboye-cloud"><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto::amgboye@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
